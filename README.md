@@ -2,7 +2,7 @@
 <H1>REPOISTORY WALKTHROUGH</H1>
 1."Backend" Folder- Contains the back end of the site, written in PHP. <BR>
 2."shop" Folder- contains the front end of the site, written in react. <BR>
-3."online_shop.sql"- Contains an import of the database used for the site(user & products), phpmyadmin SQL FORMAT: (utf8mb4_0900_ai_ci). <BR>
+3."online_shop.sql"- Contains an import of the database used for the site(user & products), phpmyadmin <b>SQL FORMAT: (utf8mb4_0900_ai_ci)</b>. <BR>
 4."backend.zip"- FTP BACKEND - Contains zipped folder of the back end site ready to deploy. <BR>
 5."shop.zip"- FTP FRONTEND - Contains zipped folder of the front end site ready to deploy.<BR>
 <div style="direction: ltr">
