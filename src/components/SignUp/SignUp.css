@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Poppins:wght@300;400;500;600&family=Shadows+Into+Light&display=swap");
+.login input {
+  z-index: 55 !important;
+}
+h4 {
+  font-size: 55px;
+}
+.signup {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  z-index: 55 !important;
+  align-items: center;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+  margin: 0;
+  overflow: hidden !important;
+}
+.login input {
+  margin-bottom: 40px !important;
+  z-index: 55 !important;
+}
+.signup input,
+.login input {
+  position: relative;
+  z-index: 55 !important;
+  margin: 50px 15px 0px 5px;
+  --input-focus: #2d8cf0;
+  --font-color: #323232;
+  --font-color-sub: #666;
+  --bg-color: #fff;
+  --main-color: #323232;
+  width: 400px;
+  height: 40px;
+  border-radius: 5px;
+  border: 2px solid var(--main-color);
+  background-color: var(--bg-color);
+  box-shadow: 4px 4px var(--main-color);
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--font-color);
+  padding: 5px 10px;
+  outline: none;
+  display: block;
+  z-index: 5;
+}
+.signup input[type="checkbox"] {
+  border: none !important;
+  outline: none !important;
+  box-shadow: none;
+  width: 20px;
+  z-index: 55 !important;
+  margin-left: 114px;
+}
+.checkbox-container{
+  border: none !important;
+  outline: none !important;
+  box-shadow: none;
+  z-index: 55 !important;
+  margin-right: 95px;
+}
+.signup label {
+  margin-top: 52px;
+  font-size: 19px;
+  color: #fff;
+  z-index: 55;
+}
+
+input::placeholder {
+  color: var(--font-color-sub);
+  opacity: 0.8;
+}
+
+input:focus {
+  border: 2px solid var(--input-focus);
+}
+.reg-btns {
+  display: inline-block;
+  padding: 12px 28px;
+  margin: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #fff;
+  background-image: linear-gradient(to bottom right, #00c6ff, #0072ff);
+  border: none;
+  border-radius: 40px;
+  box-shadow: 0px 4px 0px #0072ff;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+  z-index: 55;
+  position: relative;
+  
+
+}
+.success-message {
+  z-index: 55;
+  position: relative;
+  font-size: 32px;
+  color: green; 
+  background-color: rgba(0, 255, 0, 0.514);
+  width: 450px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.error-message2 {
+  z-index: 55;
+  position: relative;
+  font-size: 24px;
+  color: red;
+  background-color: rgba(255, 0, 0, 0.2);
+  width: 450px;
+  margin-top: 20px;
+  padding: 10px;
+}
+.reg-btns:hover {
+  transform: translateY(-2px);
+  box-shadow: 0px 6px 0px #0072ff;
+}
+
+.reg-btns:active {
+  transform: translateY(0px);
+  box-shadow: none;
+  background-image: linear-gradient(to bottom right, #0072ff, #00c6ff);
+}
+
+.reg-btns:before,
+.reg-btns:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+}
+
+.reg-btns:before {
+  top: -3px;
+  left: -3px;
+  border-radius: 40px;
+  border-top: 3px solid #fff;
+  border-left: 3px solid #fff;
+}
+
+.reg-btns:after {
+  bottom: -3px;
+  right: -3px;
+  border-radius: 40px;
+  border-bottom: 3px solid #fff;
+  border-right: 3px solid #fff;
+}
+h4 {
+  
+}
+#regH {
+  margin-top: 100px;
+  position: relative;
+  z-index: 55;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 120px;
+  color: #fff;
+  width: 440px;
+
+}
+#loginH {
+  position: relative;
+  z-index: 55;
+  font-family: "Shadows Into Light", cursive;
+  font-size: 120px;
+  color: #fff;
+  width: 440px;
+}
