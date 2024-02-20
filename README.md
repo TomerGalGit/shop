@@ -14,3 +14,18 @@
 <BR> 5.קובץ "shop.zip" - הFRONT END כקובץ ZIP מוכן להעלאה FTP.
 
 </div>
+
+<h1> NPM Installations</h1>
+npm i @emotion/react@11.11.3 <br>
+npm i @emotion/styled@11.11.0 <br>
+npm i @mui/material@5.15.6 <br>
+npm i @testing-library/jest-dom@5.17.0 <br>
+npm i @testing-library/react@13.4.0 <br>
+npm i @testing-library/user-event@13.5.0 <br>
+npm i axios@1.6.5 <br>
+npm i react-dom@18.2.0 <br>
+npm i react-router-dom@6.21.3 <br>
+npm i react-scripts@5.0.1 <br>
+npm i react@18.2.0 <br>
+npm i web-vitals@2.1.4 <br>
+
